@@ -1,0 +1,27 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oscarkindvall/testing-with-jest.git"
+  },
+  "keywords": [
+    "author:",
+    "Oscar",
+    "Kindvall"
+  ],
+  "author": "Oscar kindvall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Oscarkindvall/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/Oscarkindvall/testing-with-jest#readme"
+}
