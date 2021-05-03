@@ -1,6 +1,6 @@
 var _ = require('underscore');
 
-let stack = [];
+let stack = [""];
 
 // Lägger ett element överst i stacken
 exports.push = function (x) {
@@ -9,8 +9,9 @@ exports.push = function (x) {
 
 // Returnerar det översta elementet i stacken och tar bort det
 exports.pop = function () {
-    return stack.pop();
-}
+    return stack.splice(0, 1);
+    
+};
 
 // Returnerar det översta elementet i stacken
 exports.peek = function () {
