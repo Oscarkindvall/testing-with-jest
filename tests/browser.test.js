@@ -25,7 +25,7 @@ test('The stack should be empty in the beginning', async () => {
 
 test('Returns text of peek button', async () => {
 	let stack = await driver.findElement(By.id('peek')).getText();
-	expect(stack).toEqual("peek");
+	expect(stack).toEqual("Vad finns överst på stacken?");
 });
 
 describe('Clicking "Pusha till stacken"', () => {
