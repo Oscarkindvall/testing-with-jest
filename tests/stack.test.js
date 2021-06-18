@@ -22,7 +22,7 @@ test('peek on stack with two or more elements returns the top element', () => {
     expect(stack.peek()).toBe(42);
 });
 
-test('pop on stack with two or more elements remove last added of the array and returns that element', () => {
+test('pop on stack with two or more elements remove last added (top element) and returns that element', () => {
   stack.push(1);
   stack.push("wow");
   stack.push(42);
