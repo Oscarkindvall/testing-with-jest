@@ -26,5 +26,5 @@ test('pop on stack with two or more elements and returns that element', () => {
   stack.push(1);
   stack.push("wow");
   stack.push(42);
-  expect(stack.pop()).toBe("wow");
+  expect(stack.pop()).toBe(42);
 });
